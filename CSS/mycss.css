@@ -1,0 +1,260 @@
+header{
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    top: 0px;
+    left: 0px;
+    clear: both;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1d1d1f;
+    color: #f5f5f7;
+    text-align: unset;
+}
+ a h1#name{
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    color:  #f5f5f7;
+    text-decoration: none;
+}
+nav{
+    float: right;
+    /*margin-right: 840px; Per ottenere "nav" vicino a name*/
+    margin-top: 12px;
+    right: 70%;
+    text-align: start;
+}
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+nav li a{
+    color: inherit;
+    opacity: .8;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #f5f5f7;
+    opacity: 1;
+}
+/* ========== Content (Separati da header "nav" fisso) ========== */
+#content{
+    margin-top: 110px;
+}
+.jav{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 56px;/*40-600*/
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.support{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 40px;
+}
+/* ========== Table ========== */
+.tabella{
+    float: left;
+}
+.tabella h3{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+tr th{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 90%; /*14px*/
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+    letter-spacing: 0.1em;
+}
+/*table{
+    border-spacing: 0px;
+}*/
+th, td{
+    padding:7px 10px 10px 10px;
+}
+tr.shadow{
+    background-color: #efefef;
+}
+tbody tr:hover{
+    background-color: #c3e6e5;
+}
+/* ========== iFrame ========== */
+#maps{
+    float: right;
+    margin-right: 20px;
+}
+/* ========== Footer ========== */
+footer{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 17px;
+    float: bottom;
+    clear: both;
+    font-weight: 400;
+    color: #333333;
+    padding-top: 40px;
+}
+
+
+/* ========== Contacts ========== */
+#contactsmail{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #333;
+    float: left;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+div#contactsmail h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+div#contactsmail p{
+    font-size: 21px;
+    font-weight: 600;
+}
+div#contactsmail a{
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #c00;
+}
+div#contactsmail a:hover{
+    color: #ed4e3b;
+}
+/* ========== Other ways div ========== */
+#otherways{
+    margin-left: 80px;
+    float: left;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #333;
+}
+div#otherways h3{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+div#otherways p{
+    font-size: 21px;
+    font-weight: 600;
+}
+div#otherways a,#fax{
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #c00;
+}
+div#otherways a:hover,#fax:hover{
+    color: #ed4e3b;
+}
+/* ========== Iframe div ========== */
+.position{
+    float: right;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+div.position h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: inherit;
+}
+div.position iframe{
+    margin-right: 40px;
+}
+.box{
+    border-top: 2px solid #000;
+    padding-top: 20px;
+}
+/* ========== Adress ========== */
+#last{
+    clear: both;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #333;
+    padding-top: 100px;
+}
+#adress{
+    float: left;
+}
+#adress h3{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#last p{
+    font-size: 21px;
+    font-weight: 600;
+}
+#photo figure{
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: right;
+}
+#photo{
+    float: right;
+    margin-right: 20px;
+}
+
+/* ========== About ========== */
+.photoinfo{
+    float: right;
+    margin-right: 20px;
+}
+.info{
+    float: left;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #333;
+    margin-left: 40px;
+}
+.info p{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+}
+div.info h3{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.photoinfo figure{
+    margin-top: 35px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+/* ========== News ========== */
+#atwork{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 110px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    z-index: 1;
+}
+#work{
+    padding-top: 20px;
+}
+#workfooter{
+    padding-top: 65px;
+}
