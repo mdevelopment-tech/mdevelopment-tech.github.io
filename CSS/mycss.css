@@ -1,7 +1,7 @@
 header{
     position: fixed;
     width: 100%;
-    height: 55px;
+    height: 9%;
     top: 0px;
     left: 0px;
     clear: both;
@@ -67,7 +67,7 @@ nav li a:hover{
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     margin-top: 0px;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 52%;
     margin-bottom: 20px;
 }
 tr th{
@@ -116,6 +116,7 @@ footer{
     float: left;
     margin-left: 40px;
     margin-top: 0px;
+    margin-bottom: 3em;
 }
 div#contactsmail h3{
     margin-top: 0px;
@@ -241,6 +242,12 @@ div.info h3{
     margin-right: 0px;
     text-align: right;
 }
+/*.indirizzi{
+    list-style-type: upper-roman;
+}*/
+.curvededges{
+    border-radius: 3em;
+}
 
 /* ========== News ========== */
 #atwork{
@@ -253,8 +260,9 @@ div.info h3{
     z-index: 1;
 }
 #work{
-    padding-top: 20px;
+    padding-top: auto;
 }
 #workfooter{
-    padding-top: 65px;
+    position: fixed;
+    bottom: 0%;
 }
